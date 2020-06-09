@@ -44,13 +44,13 @@ namespace task7
                 Console.Write("\n");
             }
             int x1, y1, x2, y2;
-            InputConsole("Введите координаты первой точки (x1,y1): ",out x1,out y1);
-            InputConsole("Введите координаты первой точки (x2,y2): ",out x2,out y2);
+            InputConsole("Введите координаты первой точки (x,y): ",out x1,out y1);
+            InputConsole("Введите координаты второй точки (x,y): ",out x2,out y2);
             Console.WriteLine($"Вы ввели: \n\tКоординаты первой точки: ({x1},{y1})\n\tКоординаты второй точки: ({x2},{y2})");
             if (Black(x1,y1) == Black(x2,y2))
             {
-                Console.WriteLine("Обе координаты указывают на поле одного цвета");
-            } else Console.WriteLine("Координаты указывают на поля разного цвета");
+                Console.WriteLine("Координаты обеих точек указывают на поле одного цвета");
+            } else Console.WriteLine("Координаты обеих точек указывают на поля разного цвета");
             Console.ReadKey();
         }
         static bool Black(int x, int y)
