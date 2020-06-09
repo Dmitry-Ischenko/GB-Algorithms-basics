@@ -38,7 +38,7 @@ namespace task4
             {
                 Console.Write(msg);
                 if (Double.TryParse(Console.ReadLine(), out arg)) break;
-                else Console.WriteLine("Введенное значение, не удалось пробразовать к типу Int32, попробуйте снова.");
+                else Console.WriteLine("Введенное значение, не удалось пробразовать к типу Double, попробуйте снова.");
             } while (true);
         }
     }
