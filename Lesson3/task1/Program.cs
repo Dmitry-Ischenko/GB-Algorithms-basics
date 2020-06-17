@@ -33,7 +33,6 @@ namespace task1
             WriteArray(arrayQuick);
             ShakerSort(intArray);
             WriteArray(intArray);
-            Console.ReadKey();
         }
         static int[] SortArray(int[] arrayRef)
         {
